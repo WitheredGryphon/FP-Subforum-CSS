@@ -244,4 +244,7 @@ forum-threads .thread.closed{
 
 forum-threads .thread.sticky {
     background-color: #111 !important;
+    -moz-box-shadow: 0 0 10px #668C4F;
+    -webkit-box-shadow: 0 0 10px #668C4F;
+    box-shadow: 0px 0px 10px #668C4F;
 }
