@@ -1,0 +1,233 @@
+@font-face {
+    font-family: doom;
+    src: url('https://dl.dropboxusercontent.com/u/69387792/fonts/AmazDooMLeft.ttf');
+}
+
+@font-face {
+    font-family: wolf;
+    src: url('https://dl.dropboxusercontent.com/u/69387792/fonts/return.ttf');
+}
+
+@font-face {
+    font-family: euro;
+    src: url('https://dl.dropboxusercontent.com/u/69387792/fonts/eurostarregularextended.ttf');
+}
+
+@font-face {
+    font-family: din;
+    src: url('https://dl.dropboxusercontent.com/u/69387792/fonts/din1451alt.ttf');
+}
+
+a {
+    color: #fff;
+}
+
+body {
+    color: #fff;
+    font-family: din;
+}
+
+#content-wrapper {
+    background: url('https://dl.dropboxusercontent.com/u/69387792/fonts/xx3YdJH.jpg') repeat center center;
+    border-bottom: solid 2px;
+    border-color: #000;
+}
+
+#header .content .title  {
+    font-family: doom;
+    font-weight: normal;
+    font-size: 48px;
+    color: #fff;
+    text-shadow:
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px 2px 0 #000,
+            2px 2px 0 #000;
+    letter-spacing: 2px;
+}
+
+#header .content .title:hover {
+    color: #bbb;
+}
+
+#header .content .title:active {
+    color: #777;
+}
+
+.container {
+    width: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#header .content .title.inthread {
+    font-family: wolf;
+    opacity: .8;
+    letter-spacing: 1px;
+}
+
+#header .content .threadname.inthread {
+    font-family: doom;
+    font-weight: normal;
+    font-size: 48px;
+    color: #fff;
+    text-shadow:
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px 2px 0 #000,
+            2px 2px 0 #000;
+    letter-spacing: 2px;
+}
+#header .header .forumIcon {
+    text-shadow:
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px 2px 0 #000,
+            2px 2px 0 #000;
+}
+
+#header .content .threadname.inthread:hover {
+    color: #ccc;
+}
+
+#header .content .threadname.inthread:active {
+    color: #777;
+}
+
+forum-threads .thread.read {
+    background-color: #333;
+}
+
+forum-threads .thread {
+    background-color: #000;
+}
+
+.pagination .btn {
+    background-color: #c00;
+}
+
+.pagination .btn:hover {
+    background-color: #a00;
+}
+
+.pagination .btn:focus {
+    outline: #000 solid thin;
+}
+
+.pagination .btn:active {
+    background-color: #600;
+}
+
+.PostView .forumPost.seen .post .body {
+    background-color: #222;
+    border: none;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.PostView .forumPost .post .body {
+    background-color: #000;
+    border-left: 1px solid #900;
+    border-bottom: 1px solid #900;
+    border-right: 1px solid #900;
+    -webkit-box-shadow: 0 1px 4px rgba(30, 30, 30, 0.3), 0 0 40px rgba(30, 30, 30, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(30, 30, 30, 0.3), 0 0 40px rgba(30, 30, 30, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(30, 30, 30, 0.3), 0 0 40px rgba(30, 30, 30, 0.1) inset;
+}
+
+.PostView .forumPost.seen .post .header {
+    background-color: #600;
+}
+.PostView .forumPost .post .header {
+    border-bottom: #400 2px solid;
+    background-color: #500;
+}
+
+.user a {
+    color: #fff;
+    font-family: euro;
+    letter-spacing: 1px;
+}
+
+.user a:hover {
+    color: #ddd;
+}
+
+.user a:active {
+    color: #888;
+}
+
+.time a {
+    font-family: euro;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.PostView .forumPost .post .body.viewcode {
+    background-color: #1C2740 !important;
+    color: #fff !important;
+}
+
+#footer {
+    background-color: #222;
+    border: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1), 0 0 40px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 1), 0 0 40px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 1), 0 0 40px rgba(0, 0, 0, 1);
+}
+
+forum-poster .content {
+    background-color: #111;
+}
+
+.form-control {
+    color: #fff;
+}
+
+forum-poster .header {
+    color: #ddd;
+    background-color: #600;
+    border-bottom: #300 2px solid;
+}
+
+#header .header {
+    background-color: #222;
+    border: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1), 0 0 40px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 1), 0 0 40px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 1), 0 0 40px rgba(0, 0, 0, 1);
+}
+
+#header .header .usermenu {
+    border: #000 1px solid;
+}
+
+.btn-primary {
+    background-color: #d00;
+}
+
+.form-control {
+    background-color: #222;
+    border-color: #000;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #222;
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #000;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    border-color: #300;
+}
+
+.panel {
+    background-color: #222;
+}
+
+#textinput {
+    background-color: #111;
+}
