@@ -247,7 +247,7 @@ forum-threads .thread.sticky {
     -moz-box-shadow: 0 0 10px #668C4F;
     -webkit-box-shadow: 0 0 10px #668C4F;
     box-shadow: 0px 0px 10px #668C4F;
-    border-left: 8px solid #4C981E;
+    border-left: 8px solid #4C981E !important;
 }
 
 forum-threads .thread.updated {
