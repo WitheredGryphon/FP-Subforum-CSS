@@ -248,3 +248,12 @@ forum-threads .thread.sticky {
     -webkit-box-shadow: 0 0 10px #668C4F;
     box-shadow: 0px 0px 10px #668C4F;
 }
+
+forum-threads .thread.updated {
+    border-left: 8px solid #d00;
+    background-color: #111 !important;
+}
+
+forum-threads .thread.updated .threadlink, forum-threads .thread.updated a {
+    color: #fff !important;
+}
