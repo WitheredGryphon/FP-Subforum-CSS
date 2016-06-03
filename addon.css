@@ -225,7 +225,7 @@ forum-poster .header {
 }
 
 .panel {
-    background-color: #222;
+    background-color: #111;
 }
 
 #textinput {
@@ -234,4 +234,14 @@ forum-poster .header {
 
 input {
     background-color: #111;
+    border-color: #000;
+}
+
+forum-threads .thread.closed{
+    border-left: 8px solid #444;
+    background-color: #222 !important;
+}
+
+forum-threads .thread.sticky {
+    background-color: #111 !important;
 }
