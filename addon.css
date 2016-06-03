@@ -244,21 +244,22 @@ forum-threads .thread.closed{
 
 forum-threads .thread.sticky {
     background-color: #111 !important;
-    -moz-box-shadow: 0 0 10px #4C981E;
-    -webkit-box-shadow: 0 0 10px #4C981E;
-    box-shadow: 0px 0px 10px #4C981E;
+    -moz-box-shadow: 0 0 10px #4C981E !important;
+    -webkit-box-shadow: 0 0 10px #4C981E !important;
+    box-shadow: 0px 0px 10px #4C981E !important;
     border-left: 8px solid #4C981E !important;
 }
 
 forum-threads .thread.updated {
-    border-left: 8px solid #d00;
+    border-left: 8px solid #B095FF;
     background-color: #111 !important;
+    box-shadow: 0px 0px 10px #B095FF;
 }
 
 forum-threads .thread.updated .threadlink, forum-threads .thread.updated a {
-    color: #fff !important;
+    color: #B095FF !important;
 }
 
 forum-threads .thread.sticky .threadlink, forum-threads .thread.sticky a {
-    color: #fff !important;
+    color: #0f0 !important;
 }
