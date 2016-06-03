@@ -96,10 +96,20 @@ body {
 
 forum-threads .thread.read {
     background-color: #333;
+    box-shadow: none !important;
+    color: #aa60aa !important;
 }
 
 forum-threads .thread {
-    background-color: #000;
+    background-color: #111;
+    color: #FF5050 !important;
+    -moz-box-shadow: 0 0 10px #FF5050 !important;
+    -webkit-box-shadow: 0 0 10px #FF5050 !important;
+    box-shadow: 0px 0px 10px #FF5050 !important;
+}
+
+forum-threads .thread a {
+    color: #FF5050;
 }
 
 .pagination .btn {
@@ -238,7 +248,7 @@ input {
 }
 
 forum-threads .thread.closed{
-    border-left: 8px solid #444;
+    border-left: none;
     background-color: #222 !important;
 }
 
@@ -248,12 +258,14 @@ forum-threads .thread.sticky {
     -webkit-box-shadow: 0 0 10px #4C981E !important;
     box-shadow: 0px 0px 10px #4C981E !important;
     border-left: 8px solid #4C981E !important;
+    color: #4c981e !important;
 }
 
 forum-threads .thread.updated {
+    color: #B095FF !important;
     border-left: 8px solid #B095FF;
     background-color: #111 !important;
-    box-shadow: 0px 0px 10px #B095FF;
+    box-shadow: 0px 0px 10px #B095FF !important;
 }
 
 forum-threads .thread.updated .threadlink, forum-threads .thread.updated a {
@@ -262,4 +274,8 @@ forum-threads .thread.updated .threadlink, forum-threads .thread.updated a {
 
 forum-threads .thread.sticky .threadlink, forum-threads .thread.sticky a {
     color: #0f0 !important;
+}
+
+forum-threads .thread.read .threadlink, forum-threads .thread.read a {
+    color: #ee90ee;
 }
