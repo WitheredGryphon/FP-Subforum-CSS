@@ -146,15 +146,11 @@ forum-threads .thread a {
 .PostView .forumPost.seen .post .body {
     background-color: #222;
     border: none;
-    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
 .PostView .forumPost .post .body {
     background-color: #000;
     border-left: 1px solid #900;
-    border-bottom: 1px solid #900;
     border-right: 1px solid #900;
     -webkit-box-shadow: 0 1px 4px rgba(30, 30, 30, 0.3), 0 0 40px rgba(30, 30, 30, 0.1) inset;
     -moz-box-shadow: 0 1px 4px rgba(30, 30, 30, 0.3), 0 0 40px rgba(30, 30, 30, 0.1) inset;
@@ -229,7 +225,24 @@ forum-poster .header {
 }
 
 .btn-primary {
-    background-color: #d00;
+    background-color: #d00 !important;
+    border-radius: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+.btn-primary:hover {
+    background-color: #900 !important;
+}
+
+.btn-primary:active {
+    background-color: #400 !important;
+}
+
+.btn-primary:link {
+    background-color: #900 !important;
 }
 
 .form-control {
@@ -309,4 +322,70 @@ forum-threads .thread .postcount a, forum-threads .thread .lastpost a {
     background: rgba(30,0,0,0.5);
     border-color: #800;
     color: #dd9090;
+    -moz-box-shadow: 0 0 10px #900 !important;
+    -webkit-box-shadow: 0 0 10px #900 !important;
+    box-shadow: 0px 0px 10px #900 !important;
+}
+
+.PostView .forumPost.seen .post .footer {
+    background-color: #222;
+    border: none !important;
+}
+
+.PostView .forumPost .post .footer {
+    background-color: #000;
+    border-bottom: 1px solid #900;
+    border-left: 1px solid #900;
+    border-right: 1px solid #900;
+}
+
+.shadow {
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.modal-header {
+    background-color: #750000;
+    border-bottom: 1px solid #4C2525;
+}
+
+.modal-footer {
+    background-color: #750000;
+    border-top: 1px solid #4C2525;
+}
+
+.modal-footer .btn-default {
+    color: #fff;
+    background-color: #d00 !important;
+    border-radius: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none !important;
+    outline: none !important;
+    text-transform: uppercase;
+}
+
+.modal-footer .btn-default:hover {
+    background-color: #900 !important;
+}
+
+.modal-footer .btn-default:active {
+    background-color: #400 !important;
+}
+
+.modal-footer .btn-default:link {
+    background-color: #900 !important;
+}
+
+.close {
+    opacity: 0.8;
+}
+
+.modal-header .close {
+    color: #fff;
+}
+
+.modal-body {
+    background-color: #333;
 }
