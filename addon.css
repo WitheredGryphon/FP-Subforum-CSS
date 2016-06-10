@@ -13,6 +13,16 @@
     src: url("https://dl.dropboxusercontent.com/u/69387792/fonts/eurostarregularextended.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: hud1;
+    src: url("https://dl.dropboxusercontent.com/u/69387792/fonts/upheavtt.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: hud2;
+    src: url("https://dl.dropboxusercontent.com/u/69387792/fonts/DooM.ttf");
+}
+
 html a {
     text-decoration: none !important;
     outline: none !important;
@@ -226,11 +236,11 @@ forum-poster .header {
 
 .btn-primary {
     background-color: #d00 !important;
-    border-radius: 45px;
     padding-left: 25px;
     padding-right: 25px;
     text-decoration: none !important;
     outline: none !important;
+    box-shadow: 0px 0px 5px #000;
 }
 
 .btn-primary:hover {
@@ -388,4 +398,96 @@ forum-threads .thread .postcount a, forum-threads .thread .lastpost a {
 
 .modal-body {
     background-color: #333;
+}
+
+#sidebar {
+    background: url('https://dl.dropboxusercontent.com/u/69387792/fonts/side-bg.png') repeat;
+    box-shadow: 2px 0px 50px #000;
+    padding-top: 0;
+    font-family: euro;
+    text-shadow: 1px 2px #000;
+}
+
+#sidebar .userarea {
+    background: url('https://dl.dropboxusercontent.com/u/69387792/fonts/test-layout.png');
+    image-rendering: pixelated;
+    margin-bottom: 0;
+    height: 100px;
+}
+
+#sidebar .userarea .links a {
+    font-family: hud1;
+    color: ##ffff58;
+}
+
+#sidebar .userarea .links a:hover {
+    color:  #dddd36;
+}
+
+#sidebar .userarea .links a:active {
+    color:  #bbbb14;
+}
+
+#sidebar .userarea .username a {
+    font-family: hud2;
+    color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+    text-shadow: 1px 3px #000;
+}
+
+#sidebar .userarea .username a:hover {
+    color: #ddd;
+}
+
+#sidebar .userarea .username a:active {
+    color: #aaa;
+}
+
+#sidebar ul li a {
+    background: url('https://dl.dropboxusercontent.com/u/69387792/fonts/test-layout2.png');
+    height: 33px;
+    image-rendering: pixelated;
+    color: #ffff58;
+    font-family: hud1;
+    font-weight: normal;
+    text-shadow: 1px 2px #000;
+    padding-left: 48px;
+    letter-spacing: 0.5px;
+}
+
+#sidebar ul li a:hover {
+    color: #dddd36;
+}
+
+#sidebar ul li a:active {
+    color: #bbbb14;
+}
+
+#sidebar ul li {
+    min-height: 33px;
+}
+
+#sidebar ul {
+    background-color: initial;
+}
+
+#sidebar ul li .glyphicon canvas, #sidebar ul li forum-icon canvas {
+    margin-left: 1px;
+    margin-top: 5px;
+}
+
+.thinpanel .header {
+    background-color: #600;
+    font-family: euro;
+    color: #fff;
+    border-bottom: #400 2px solid;
+}
+
+.thinpanel .header .characters span {
+    color: #ffff58;
+}
+
+.thinpanel .content textarea {
+    background-color: #111;
 }
