@@ -491,3 +491,13 @@ forum-threads .thread .postcount a, forum-threads .thread .lastpost a {
 .thinpanel .content textarea {
     background-color: #111;
 }
+
+#Dockbar {
+    background-color: #600;
+    border-top: 1px solid #000;
+    box-shadow: 0 0 10px #000;
+}
+
+.pagination .SearchBox:last-child, .pagination .btn:last-child {
+    margin-right: 4px;
+}
